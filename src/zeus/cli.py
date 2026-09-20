@@ -28,7 +28,7 @@ COMANDOS
 COMO FUNCIONA
     O Zeus nao le codigo-fonte diretamente: ele cruza a descricao da
     tarefa com os resumos ja gerados pela Athena
-    (github.com/netovieira/athena) e pede ao Claude Code ("claude -p")
+    (github.com/theroverse/athena) e pede ao Claude Code ("claude -p")
     para escolher os arquivos candidatos e escrever um plano de acao.
     O resultado (.claude/zeus-plan.md) e um ponto de partida a
     verificar, nao uma verdade absoluta.

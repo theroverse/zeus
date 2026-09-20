@@ -18,6 +18,6 @@ MAX_CONTEXT_CHARS = 60_000
 
 ATHENA_PATH_ENV_VAR = "ZEUS_ATHENA_PATH"
 
-ATHENA_REPO_URL = "https://github.com/netovieira/athena.git"
+ATHENA_REPO_URL = "https://github.com/theroverse/athena.git"
 
 ATHENA_ENTRY_SCRIPT = "athena.py"

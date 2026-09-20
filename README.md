@@ -9,7 +9,7 @@
 
 Você descreve uma tarefa em português mesmo ("adicionar campo de
 telefone no cadastro de usuário") e o Zeus cruza isso com o índice de
-arquitetura gerado pela [Athena](https://github.com/netovieira/athena)
+arquitetura gerado pela [Athena](https://github.com/theroverse/athena)
 pra decidir quais arquivos do projeto realmente importam, escrevendo
 um plano de ação verificável antes de qualquer linha de código mudar.
 
@@ -32,7 +32,7 @@ O resultado é um ponto de partida a revisar, não uma verdade absoluta.
   torna reindexações repetidas baratas — o Zeus roda `athena index`
   sozinho antes de cada plano.
 - **Parte de uma suíte**: use direto (`python zeus.py plan "..."`) ou
-  via [`thero --plan "<tarefa>"`](https://github.com/netovieira/thero),
+  via [`thero --plan "<tarefa>"`](https://github.com/theroverse/thero),
   que já cuida de instalar o Zeus e a Athena se faltarem.
 
 ## Descrição
@@ -49,7 +49,7 @@ O resultado é um ponto de partida a revisar, não uma verdade absoluta.
   planejado (faz backup do anterior, se existir).
 - Se a Athena não estiver instalada, oferece clonar automaticamente
   (com confirmação) numa cópia gerenciada compartilhada com o
-  [`thero`](https://github.com/netovieira/thero), em vez de exigir
+  [`thero`](https://github.com/theroverse/thero), em vez de exigir
   instalação manual.
 
 ## Requisitos
@@ -62,7 +62,7 @@ O resultado é um ponto de partida a revisar, não uma verdade absoluta.
 ## Instalação
 
 ```
-git clone https://github.com/netovieira/zeus.git
+git clone https://github.com/theroverse/zeus.git
 cd zeus
 python zeus.py --help
 ```
@@ -122,7 +122,7 @@ O Zeus precisa da Athena já instalada (ou instalável). Procura
 
 ## Integração com o Thero e a Athena
 
-O [`thero`](https://github.com/netovieira/thero) (setup do Claude
+O [`thero`](https://github.com/theroverse/thero) (setup do Claude
 Code) já reconhece um `.claude/zeus-plan.md` opcional no `CLAUDE.md`
 que gera, como ponto de partida de contexto para o Claude — não é
 obrigatório rodar o Zeus para usar o `thero`.

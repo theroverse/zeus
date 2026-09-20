@@ -60,7 +60,7 @@ def run_athena_index(entry_path: Path, project_root: Path) -> bool:
             "[ERROR] athena.py não disponível. Rode este comando "
             "num terminal interativo para permitir a instalação "
             "automática, instale a Athena "
-            "(https://github.com/netovieira/athena) manualmente na "
+            "(https://github.com/theroverse/athena) manualmente na "
             "pasta irmã de zeus (ex.: ~/.myscripts/athena), ou "
             f"defina a variável de ambiente {ATHENA_PATH_ENV_VAR} "
             "apontando para o athena.py."
