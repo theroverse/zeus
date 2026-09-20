@@ -80,19 +80,19 @@ function CopyCommand({ command, compact = false }: { command: string; compact?: 
 }
 
 // Glifo real do Zeus (mesmo de theroverse/src/components/icons/
-// EcosystemIcon.tsx e das cores oficiais em ecosystem.ts: #EAB308/#FDE047)
+// EcosystemIcon.tsx e das cores oficiais em ecosystem.ts: #A3E635/#D9F99D)
 // - antes essa marca usava o icone generico Zap do lucide, sem nenhuma
 // relacao com a identidade visual real do resto do ecossistema.
 function ZeusMark({ size = 40 }: { size?: number }) {
   return (
     <span className="brand-mark" style={{ width: size, height: size }} aria-hidden="true">
       <svg viewBox="0 0 64 64" width={Math.round(size * 0.85)} height={Math.round(size * 0.85)}>
-        <path d="M24 10 H20 A 4 4 0 0 0 16 14 V18" fill="none" stroke="#EAB308" strokeWidth="2" strokeLinecap="round" strokeOpacity="0.6" />
-        <path d="M40 10 H44 A 4 4 0 0 1 48 14 V18" fill="none" stroke="#EAB308" strokeWidth="2" strokeLinecap="round" strokeOpacity="0.6" />
-        <path d="M48 46 V50 A 4 4 0 0 1 44 54 H40" fill="none" stroke="#EAB308" strokeWidth="2" strokeLinecap="round" strokeOpacity="0.6" />
-        <path d="M16 46 V50 A 4 4 0 0 0 20 54 H24" fill="none" stroke="#EAB308" strokeWidth="2" strokeLinecap="round" strokeOpacity="0.6" />
-        <path d="M37 11 L22 32 H33 L26 53 L45 28 H33 Z" fill="#EAB308" fillOpacity="0.22" stroke="#EAB308" strokeWidth="3.25" strokeLinejoin="round" strokeLinecap="round" />
-        <path d="M32 5 V8 M32 56 V59 M5 32 H8 M56 32 H59" stroke="#FDE047" strokeWidth="1.75" strokeLinecap="round" strokeOpacity="0.5" />
+        <path d="M24 10 H20 A 4 4 0 0 0 16 14 V18" fill="none" stroke="#A3E635" strokeWidth="2" strokeLinecap="round" strokeOpacity="0.6" />
+        <path d="M40 10 H44 A 4 4 0 0 1 48 14 V18" fill="none" stroke="#A3E635" strokeWidth="2" strokeLinecap="round" strokeOpacity="0.6" />
+        <path d="M48 46 V50 A 4 4 0 0 1 44 54 H40" fill="none" stroke="#A3E635" strokeWidth="2" strokeLinecap="round" strokeOpacity="0.6" />
+        <path d="M16 46 V50 A 4 4 0 0 0 20 54 H24" fill="none" stroke="#A3E635" strokeWidth="2" strokeLinecap="round" strokeOpacity="0.6" />
+        <path d="M37 11 L22 32 H33 L26 53 L45 28 H33 Z" fill="#A3E635" fillOpacity="0.22" stroke="#A3E635" strokeWidth="3.25" strokeLinejoin="round" strokeLinecap="round" />
+        <path d="M32 5 V8 M32 56 V59 M5 32 H8 M56 32 H59" stroke="#D9F99D" strokeWidth="1.75" strokeLinecap="round" strokeOpacity="0.5" />
       </svg>
     </span>
   );

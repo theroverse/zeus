@@ -26,8 +26,11 @@
 :root {
   --background: oklch(0.98 0.008 80);
   --foreground: oklch(0.16 0.015 250);
-  --primary: #ff8800;
-  --primary-foreground: oklch(0.99 0.004 80);
+  /* Era #ff8800 (laranja) - hue quase igual ao --primary do thero
+     (oklch hue ~44), por isso as duas paginas liam "parecidas". Lima
+     eletrico bate com a cor oficial nova do Zeus em ecosystem.ts. */
+  --primary: #a3e635;
+  --primary-foreground: oklch(0.16 0.015 250);
   --secondary: oklch(0.2 0.018 250);
   --secondary-foreground: oklch(0.98 0.008 80);
   --muted: oklch(0.93 0.012 80);
@@ -36,7 +39,7 @@
   --accent-foreground: oklch(0.16 0.015 250);
   --border: oklch(0.86 0.013 80);
   --input: oklch(0.9 0.012 80);
-  --ring: #ff8800;
+  --ring: #a3e635;
   --ink: oklch(0.145 0.017 250);
   --ink-raised: oklch(0.19 0.02 250);
   --paper: oklch(0.98 0.008 80);
